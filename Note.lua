@@ -4,7 +4,7 @@
 -- Provides logging capabilities to both the MQ console and an external file
 
 ---@type OsTime
-local time = require('lib.OsTime')
+local time = require('OsTime')
 
 --- The logging severity suppoted by Note
 ---@alias severityType
